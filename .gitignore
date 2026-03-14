@@ -1,0 +1,40 @@
+# 忽略 Python 編譯暫存檔
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略虛擬環境 (venv)
+venv/
+env/
+.venv/
+
+# 忽略環境變數設定檔 (保護個人隱私)
+.env
+
+# --- 數據檔案忽略設定 ---
+# 忽略地圖數據內容，但保留資料夾中的 .gitkeep 檔
+dashboard/assets/data/Taiwan_Administrative_Region/County/*
+!dashboard/assets/data/Taiwan_Administrative_Region/County/.gitkeep
+
+dashboard/assets/data/Taiwan_Administrative_Region/Town/*
+!dashboard/assets/data/Taiwan_Administrative_Region/Town/.gitkeep
+
+# 忽略所有房屋交易數據夾內的所有檔案與子資料夾
+dashboard/assets/data/house_price/release/**/*
+!dashboard/assets/data/house_price/release/**/.gitkeep
+
+dashboard/assets/data/house_price/zip_raw_data/*
+!dashboard/assets/data/house_price/zip_raw_data/.gitkeep
+
+# 忽略程式產生的暫存/快取資料
+temp/
+.cache/
+
+# 新增：不想要上傳的測試與範例資料夾
+test/
+sample/
+
+# 忽略作業系統產生的雜檔
+.DS_Store
+Thumbs.db
