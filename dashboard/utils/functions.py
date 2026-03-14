@@ -357,7 +357,7 @@ def plot_price_distribution(county, df, selected_year=2022):
             family='Arial Black',                             # 可以用不同字型（達成粗體效果）
     )))
     fig.update_layout(
-        title=f"{selected_year} 年房屋價格分布（所有縣市）",
+        title=f"{selected_year} 年房屋價格分布（{county}）",
         xaxis_title="價格區間（萬元）",
         yaxis=dict(
             title="成交量",
