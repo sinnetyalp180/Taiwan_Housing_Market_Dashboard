@@ -1,13 +1,13 @@
 # Taiwan Housing Market Dashboard (台灣房價觀測儀表板)
 這是一個基於 Python Dash 結合地圖應用與資料視覺化，開發的互動式網頁應用程式。
 旨在提供台灣房價數據的視覺化分析與趨勢觀察，並可利用 AI 推薦以提供更多資訊了連結。
-&nbsp;
 
+&nbsp;
 ## 系統需求 (Environment)
 - **Python 版本**: "3.10.11" (建議版本)
 - **主要套件**: 詳見 `requirements.txt`
-&nbsp;
 
+&nbsp;
 ## 資料準備與路徑說明 (Data Setup)
 由於 GitHub 的檔案大小限制，本專案不包含原始數據。執行程式前，請依照以下說明手動下載並配置數據：
 &nbsp;
@@ -64,6 +64,8 @@ Taiwan_Housing_Market_Dashboard/
   <br>
   <em>圖 1：台灣房價儀表板主畫面</em>
 </p>
+
+<br>
 
 <p align="center">
   <img src="dashboard/assets/img/app-ai-preview.jpg" width="90%" alt="Main Dashboard 2">
