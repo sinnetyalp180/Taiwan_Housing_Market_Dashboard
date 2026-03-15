@@ -1,16 +1,16 @@
 # Taiwan Housing Market Dashboard (台灣房價觀測儀表板)
 這是一個基於 Python Dash 結合地圖應用與資料視覺化，開發的互動式網頁應用程式。
 旨在提供台灣房價數據的視覺化分析與趨勢觀察，並可利用 AI 推薦以提供更多資訊了連結。
-
+&nbsp;
 
 ## 系統需求 (Environment)
 - **Python 版本**: "3.10.11" (建議版本)
 - **主要套件**: 詳見 `requirements.txt`
-
+&nbsp;
 
 ## 資料準備與路徑說明 (Data Setup)
 由於 GitHub 的檔案大小限制，本專案不包含原始數據。執行程式前，請依照以下說明手動下載並配置數據：
-
+&nbsp;
 ### 1. 地圖數據 (Map Data)
 - **縣市界線 (County)**:
     - [下載連結](https://data.gov.tw/dataset/7442) (請選擇 SHP 格式)。
@@ -26,7 +26,7 @@
     2. 依季度下載後，在 `dashboard/assets/data/house_price/release/` 下建立對應資料夾（例如：`lvr_landcsv_114_2`）。
     3. 將下載的 CSV 檔案解壓縮至該資料夾內。
 
-
+&nbsp;
 ### 預期目錄結構 (Project Structure)
 請確保您的檔案路徑如下所示，否則 `app.py` 將無法讀取資料：
 
@@ -56,6 +56,20 @@ Taiwan_Housing_Market_Dashboard/
 │                       └── .gitkeep
 │
 └── temp/                                             # 程式執行產生的快取資料
+```
+&nbsp;
+## 📊 專案預覽 (Preview)
+<p align="center">
+  <img src="dashboard/assets/img/dashboard-main-4.jpg" width="90%" alt="Main Dashboard 1">
+  <br>
+  <em>圖 1：台灣房價儀表板主畫面</em>
+</p>
+
+<p align="center">
+  <img src="dashboard/assets/img/app-ai-preview.jpg" width="90%" alt="Main Dashboard 2">
+  <br>
+  <em>圖 2：AI 適配推薦</em>
+</p>
 
 
 
