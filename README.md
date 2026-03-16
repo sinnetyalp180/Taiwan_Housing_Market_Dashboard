@@ -3,7 +3,7 @@
 旨在提供台灣房價數據的視覺化分析與趨勢觀察，並可利用 AI 推薦以提供更多資訊了連結。
 
 &nbsp;
-## 系統需求 (Environment)
+## 系統需求📋 (Environment)
 - **Python 版本**: "3.10.11" (建議版本)
 - **主要套件**: 詳見 `requirements.txt`
 
@@ -58,7 +58,7 @@ Taiwan_Housing_Market_Dashboard/
 └── temp/                                             # 程式執行產生的快取資料
 ```
 &nbsp;
-## 📊 專案預覽 (Preview)
+## 專案預覽📊 (Preview)
 <p align="center">
   <img src="dashboard/assets/img/dashboard-main-4.jpg" width="90%" alt="Main Dashboard 1">
   <br>
@@ -74,4 +74,6 @@ Taiwan_Housing_Market_Dashboard/
 </p>
 
 
-
+### 更多視覺化展示🔍
+除了上述預覽，專案中還包含 **[多維度房價趨勢圖]** 與 **[細分區域交易統計圖]**。
+**查看路徑📂**：[點我進入圖片庫瀏覽全部截圖](./dashboard/assets/img/)
